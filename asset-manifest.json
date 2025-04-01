@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/magellan/static/css/main.a2ccf8a7.css",
+    "main.js": "/magellan/static/js/main.1da53b99.js",
+    "index.html": "/magellan/index.html",
+    "main.a2ccf8a7.css.map": "/magellan/static/css/main.a2ccf8a7.css.map",
+    "main.1da53b99.js.map": "/magellan/static/js/main.1da53b99.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2ccf8a7.css",
+    "static/js/main.1da53b99.js"
+  ]
+}
