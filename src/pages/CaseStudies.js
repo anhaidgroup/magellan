@@ -1,48 +1,31 @@
-import React from "react";
-import "./CaseStudies.css";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-const CaseStudies = () => {
-  return (
-    <div>
-      <section id="top" className="intro-section">
-        <h1>Case Studies</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-          tristique feugiat convallis. Suspendisse elementum lorem nunc, in
-          fermentum massa ultricies sed. Aenean libero lectus, finibus ac
-          iaculis a, molestie et nibh. Nullam lobortis, lorem vitae tempus
-          tristique, diam nisi aliquam libero, quis bibendum tortor neque in
-          leo.
-        </p>
-      </section>
+import Main from '../layouts/Main';
 
-      <div className="case-studies-layout">
-        <aside className="sidebar">
-          <a href="#">↑ Back to Top</a>
-          <a href="#case-a">
-            <strong>Case Study A</strong>
-          </a>
-          <a href="#case-b">
-            <strong>Case Study B</strong>
-          </a>
-        </aside>
+import caseData from '../data/caseStudies';
+import Case from '../components/CaseStudies/Case';
 
-        <main className="main-content">
-          <section id="case-a" className="case-section">
-            <h2>Case Study A</h2>
-            <h4>Real-world deployment of PyMatcher</h4>
-            <p>Insert table here</p>
-          </section>
+const CaseStudies = () => (
+  <Main title="Case Studies" description="Real-world examples of MagellanTech deployments.">
+    <article className="post" id="case-studies">
+      <header>
+        <div className="title">
+          <h2>
+            <Link to="/case-studies">Case Studies</Link>
+          </h2>
+          <p>
+            Real-world performance of PyMatcher, CloudMatcher, and other EM tools on large-scale
+            data challenges.
+          </p>
+        </div>
+      </header>
 
-          <section id="case-b" className="case-section">
-            <h2>Case Study B</h2>
-            <h4>Real-world deployment of CloudMatcher</h4>
-            <p>Insert table here</p>
-          </section>
-        </main>
-      </div>
-    </div>
-  );
-};
+      {caseData.map((caseItem) => (
+        <Case key={caseItem.id} data={caseItem} />
+      ))}
+    </article>
+  </Main>
+);
 
 export default CaseStudies;

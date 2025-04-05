@@ -1,12 +1,20 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
+import { createRoot, hydrateRoot } from 'react-dom/client';
 import App from './App';
-import './App.css';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <BrowserRouter>
+// See https://reactjs.org/docs/strict-mode.html
+const StrictApp = () => (
+  <React.StrictMode>
     <App />
-  </BrowserRouter>
+  </React.StrictMode>
 );
+
+const rootElement = document.getElementById('root');
+
+// hydrate is required by react-snap.
+if (rootElement.hasChildNodes()) {
+  hydrateRoot(rootElement, <StrictApp />);
+} else {
+  const root = createRoot(rootElement);
+  root.render(<StrictApp />);
+}

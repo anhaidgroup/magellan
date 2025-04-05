@@ -1,66 +1,33 @@
-import React from "react";
-import "./LessonsLearned.css";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Main from '../layouts/Main';
 
-const LessonsLearned = () => {
-  return (
-    <div>
-      <section id="top" className="intro-section">
-        <h1>Lessons Learned</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-          tristique feugiat convallis. Suspendisse elementum lorem nunc, in
-          fermentum massa ultricies sed. Aenean libero lectus, finibus ac
-          iaculis a, molestie et nibh. Nullam lobortis, lorem vitae tempus
-          tristique, diam nisi aliquam libero, quis bibendum tortor neque in
-          leo.
-        </p>
-      </section>
+import lessons from '../data/lessons';
+import Lesson from '../components/Lessons/Lesson';
 
-      <div className="lessons-layout">
-        <aside className="sidebar">
-          <a href="#">↑ Back to Top</a>
-          <a href="#lesson-1">
-            <strong>Lesson 1</strong>
-          </a>
-          <a href="#lesson-2">
-            <strong>Lesson 2</strong>
-          </a>
-          <a href="#lesson-3">
-            <strong>Lesson 3</strong>
-          </a>
-        </aside>
+const LessonsLearned = () => (
+  <Main
+    title="Lessons Learned"
+    description="Insights from developing MagellanTech tools and deploying them in the real world."
+  >
+    <article className="post" id="lessons">
+      <header>
+        <div className="title">
+          <h2>
+            <Link to="/lessons-learned">Lessons Learned</Link>
+          </h2>
+          <p>
+            Real-world development and deployment taught us a lot — here are some lessons that
+            stuck.
+          </p>
+        </div>
+      </header>
 
-        <main className="main-content">
-          <section id="lesson-1" className="lesson-section">
-            <h2>Lesson 1</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-              tristique feugiat convallis. Suspendisse elementum lorem nunc, in
-              fermentum massa ultricies sed.
-            </p>
-          </section>
-
-          <section id="lesson-2" className="lesson-section">
-            <h2>Lesson 2</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-              tristique feugiat convallis. Suspendisse elementum lorem nunc, in
-              fermentum massa ultricies sed.
-            </p>
-          </section>
-
-          <section id="lesson-3" className="lesson-section">
-            <h2>Lesson 3</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-              tristique feugiat convallis. Suspendisse elementum lorem nunc, in
-              fermentum massa ultricies sed.
-            </p>
-          </section>
-        </main>
-      </div>
-    </div>
-  );
-};
+      {lessons.map((lesson) => (
+        <Lesson key={lesson.id} data={lesson} />
+      ))}
+    </article>
+  </Main>
+);
 
 export default LessonsLearned;
