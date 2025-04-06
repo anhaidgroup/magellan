@@ -1,7 +1,7 @@
 {
   "name": "magellan-site",
-  "version": "4.0.0",
-  "homepage": "https://anhaindgroup.github.io/magellan",
+  "version": "0.1.1",
+  "homepage": "https://anhaidgroup.github.io/magellan",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -15,9 +15,11 @@
     "build": "rimraf ./build && react-scripts build",
     "lint": "eslint \"**/*.js\"",
     "lint:fix": "eslint 'src/**/*.{js,jsx}' --fix",
-    "predeploy": "npm run build && react-snap",
+    "predeploy": "npm run build",
     "start": "react-scripts start",
-    "test": "npx jest"
+    "test": "npx jest",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
@@ -53,6 +55,7 @@
     "eslint-plugin-jsx-a11y": "6.10.2",
     "eslint-plugin-prettier": "^5.2.6",
     "eslint-plugin-react": "^7.37.2",
+    "gh-pages": "^6.3.0",
     "prettier": "^3.5.3",
     "react-snap": "^1.23.0",
     "rimraf": "^6.0.1",
