@@ -14,16 +14,20 @@ const CaseStudies = () => (
           <h2>
             <Link to="/case-studies">Case Studies</Link>
           </h2>
-          <p>
-            Real-world performance of PyMatcher, CloudMatcher, and other EM tools on large-scale
-            data challenges.
-          </p>
         </div>
       </header>
-
-      {caseData.map((caseItem) => (
-        <Case key={caseItem.id} data={caseItem} />
-      ))}
+      <section>
+        <p>In this page we describe case studies with many customers.</p>
+      </section>
+      <section>
+        <h3>Companies</h3>
+      </section>
+      <section>
+        <h3>Domain Sciences</h3>
+      </section>
+      <section>
+        <h3>GreenBay and Informatica</h3>
+      </section>
     </article>
   </Main>
 );

@@ -13,12 +13,15 @@ const Data = () => (
           <h2>
             <Link to="/data">Data</Link>
           </h2>
-          <p>Benchmarks and datasets powering the MagellanTech entity matching solutions.</p>
         </div>
       </header>
-      {datasets.map((item) => (
-        <Cell key={item.title} data={item} />
-      ))}
+      <section>
+        <p>
+          Since the project's inception we have acquired a large number of datasets that can be used
+          to evaluate EM software. This includes BigGoat, our latest benchmark for scaling EM. We
+          will list those datasets here in the near future.
+        </p>
+      </section>
     </article>
   </Main>
 );

@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
+import EmailLink from '../components/Contact/EmailLink';
 
 const Index = () => (
   <Main description="Magellan Tech's Research Website">
@@ -9,60 +10,74 @@ const Index = () => (
       <header>
         <div className="title">
           <h2>
-            <Link to="/">Magellan Tech</Link>
+            <Link to="/">Fast and Accurate Entity Matching with AI</Link>
           </h2>
-          <p>
-            Entity Matching meets real-world deployment: open-source tools, success stories, and
-            evolving lessons from the field.
-          </p>
+          <p></p>
         </div>
       </header>
 
       <section>
-        <h3>What is new</h3>
-        <p>
-          We have our SparkMatcher package for deployment on Apache Spark clusters. Check the{' '}
-          <Link to="/code">Code</Link> section to explore the repository and try it out!
-        </p>
-      </section>
-
-      <section>
-        <h3>What This Project Is About</h3>
-        <p>
-          Entity Matching connects similar records across different datasets. This project blends
-          research and industrial practice, originating back in <em>[insert year]</em>. Head over to
-          the <Link to="/lessonslearned">Lessons Learned</Link> section to trace our journey.
-        </p>
-      </section>
-
-      <section>
-        <h3>Success Stories</h3>
-        <p>Users with large datasets have tried, and seen success, with our solutions.</p>
-      </section>
-
-      <section>
-        <h3>What You Can Do</h3>
+        <h3>Latest News:</h3>
         <ul>
+          <li>4/12/2025: MadMatcher, our latest EM startup, is founded by Dev Ahluwalia.</li>
           <li>
-            <strong>Researcher:</strong> Understand how our solutions work internally through our
-            publications.
+            4/10/2025: Delex, our latest blocker, is released. Delex combines multiple blocking
+            techniques and scales to hundreds of millions of tuples, using Spark.{' '}
           </li>
           <li>
-            <strong>Learner:</strong> Check out repositories and give them a try with our example
-            datasets, or explore our <Link to="/casestudies">case studies</Link>.
-          </li>
-          <li>
-            <strong>Customer:</strong> Check out our <Link to="/code">repositories</Link>, and
-            contact xyz for any help.
+            3/15/2025: This site (the new homepage of Magellan) is launched. Still under heavy
+            construction.{' '}
           </li>
         </ul>
       </section>
 
       <section>
-        <h3>Contact Us</h3>
         <p>
-          Have questions or want to collaborate? Visit our <Link to="/contact">Contact</Link> page
-          to reach out.
+          Started in 2015, the Magellan project focuses on entity matching, a pervasive problem in
+          data integration, which in turn is often required for data science and AI projects.{' '}
+        </p>
+      </section>
+
+      <section>
+        <p>
+          Our goal is to develop software, work with customers, and publish our findings. Notable
+          results since the project's inception:
+        </p>
+        <ul>
+          <li>
+            The PyMatcher software has been widely used by researchers, domain sciences, and
+            companies, and parts of it have been incorporated into several popular open-source
+            software.
+          </li>
+          <li>
+            The CloudMatcher software led to the creation of GreenBay Tech and its acquisition by
+            Informatica in 2020. CloudMatcher was incorporated into several products of Informatica,
+            serving thousands of enterprise customers.
+          </li>
+          <li>
+            Lessons from PyMatcher and CloudMatcher led to SparkMatcher, which can efficiently match
+            hundreds of millions of data tuples, using Spark and AI.
+          </li>
+          <li>
+            Publications from the project have been cited thousands of times, and have received both
+            the SIGMOD and CACM Research Highlight Awards.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <p>
+          In 2025 the project has inspired another startup, MadMatcher, founded by Dev Ahluwalia, a
+          CS graduate student at UW-Madison. MadMatcher builds on and extends the Magellan software
+          with Generative AI capabilities.
+        </p>
+      </section>
+
+      <section>
+        <p>
+          If you need EM software, check out MadMatcher for the polished software offering, or check
+          out Magellan (this site) for cutting-edge software still in alpha testing (and the latest
+          research findings), or contact us at entitymatchinginfo@gmail.com.
         </p>
       </section>
     </article>

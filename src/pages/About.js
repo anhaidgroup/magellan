@@ -2,37 +2,107 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Main from '../layouts/Main';
 
-import students from '../data/students';
-import Student from '../components/About/Student';
-
 const About = () => (
-  <Main title="About" description="Who worked on this project and what we learned along the way.">
+  <Main title="About" description="About MagellanTech.">
     <article className="post" id="about">
       <header>
         <div className="title">
           <h2>
             <Link to="/about">About</Link>
           </h2>
-          <p>
-            This project has existed for x years. Here is some information about the people who
-            contributed to it over time.
-          </p>
         </div>
       </header>
 
-      <div
-        className="projects-grid"
-        style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))',
-          gap: '2rem',
-          justifyItems: 'center',
-        }}
-      >
-        {students.map((student) => (
-          <Student key={student.name} data={student} />
-        ))}
-      </div>
+      <section>
+        <h3>Entity Matching</h3>
+        <span className="image right">
+          {/* TODO: replace with your actual figure */}
+          <em>Figure placeholder</em>
+        </span>
+        <p>
+          Entity Matching (EM) is the problem of finding data instances that refer to the same
+          real‑world entity. For example, given the two tables A and B shown below, find all tuple
+          pairs
+          <code>(a in A, b in B)</code> that match, such as <code>(Dave Smith, Madison, WI)</code>{' '}
+          and
+          <code>(David D. Smith, Madison, WI)</code>. We call these pairs “matches.”
+        </p>
+        <p>
+          This problem often arises in data science and AI. Many such projects must combine multiple
+          datasets into a single clean unified dataset, then analyze this dataset to extract
+          insights or use it to train AI. To combine multiple datasets, we often must solve the EM
+          problem.
+        </p>
+        <p>
+          The EM problem is challenging for two reasons. First, data instances that match often
+          appear in different forms, using different words, making it difficult to achieve high
+          matching accuracy. Second, Tables A and B are often very large, having 100M to 500M tuples
+          or more, making it difficult to achieve reasonable runtime.
+        </p>
+      </section>
+
+      <section>
+        <h3>Blocking and Matching</h3>
+        <p>
+          Considering all pairs between the two tables A and B is practically infeasible for large
+          tables. So EM is typically performed in two steps: blocking and matching (and the Magellan
+          project develops software for both steps). The blocking step uses heuristics to quickly
+          remove a large number of pairs judged unlikely to match. The matching step applies a rule‑
+          or ML‑based matcher to each remaining pair, to predict match or non‑match.
+        </p>
+        <p>
+          For example, in the above figure, the blocking step keeps only those pairs that share the
+          same state (this can be done quickly using an index on Column “State”). Then the matching
+          step applies a matcher that predicts pairs <code>(a1,b1)</code> and <code>(a3,b2)</code>{' '}
+          to be matches.
+        </p>
+      </section>
+
+      <section>
+        <h3>Variations of EM and Related Problems</h3>
+        <p>
+          Variations of EM are known as entity resolution, record linkage, deduplication, and more.
+          We use the term “entity matching” because there are many other related problems, and their
+          names all end with “matching.”
+        </p>
+        <p>
+          Specifically, string matching finds strings that refer to the same real-world concept,
+          such as "UW-Madison" and "Univ of Wisc Madison". Schema matching finds similar columns
+          across tables, such as "address" and "location". Ontology matching finds similar concepts
+          across ontologies, such as "car" and "automobile". Other related problems include matching
+          between ontology concepts and table columns, matching tables, and more.{' '}
+        </p>
+        <p>
+          While Magellan is designed primarily for EM, it can also be used for these related
+          matching problems.
+        </p>
+      </section>
+
+      <section>
+        <h3>The Magellan Project</h3>
+        <p>
+          This project was started in 2015 at the University of Wisconsin‑Madison. By that time,
+          even though numerous publications on EM existed, we had not found any industrial‑strength
+          EM software. So our goal has been to develop industrial‑strength open‑source software for
+          entity matching (EM), work with customers to evaluate these products, use the evaluations
+          to refine the products, and publish the findings.
+        </p>
+        <p>
+          The goal is to release EM software that can find widespread use. Publishing findings is an
+          important part of the project, but is viewed as a side effect of executing the
+          software-customer cycle. We refer to this template as the "academic startup" template.
+        </p>
+      </section>
+
+      <section>
+        <h3>Team and Contact</h3>
+        <p>
+          Over the years many people have contributed to Magellan. Their names are listed in the
+          "Research" section. The current team (as of April 2025) consists of Derek Paulsen, Dev
+          Ahluwalia, Anson Doan, and AnHai Doan, who are working on the SparkMatcher software.
+        </p>
+        <p>To contact us with any requests, please email entitymatchinginfo@gmail.com.</p>
+      </section>
     </article>
   </Main>
 );

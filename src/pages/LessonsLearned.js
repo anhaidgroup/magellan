@@ -16,16 +16,20 @@ const LessonsLearned = () => (
           <h2>
             <Link to="/lessons-learned">Lessons Learned</Link>
           </h2>
-          <p>
-            Real-world development and deployment taught us a lot — here are some lessons that
-            stuck.
-          </p>
         </div>
       </header>
-
-      {lessons.map((lesson) => (
-        <Lesson key={lesson.id} data={lesson} />
-      ))}
+      <section>
+        <p>
+          In this page we describe the main lessons learned and how they have been driving our work
+          in the Magellan project.
+        </p>
+      </section>
+      <section>
+        <h3>Blocking</h3>
+      </section>
+      <section>
+        <h3>Matching</h3>
+      </section>
     </article>
   </Main>
 );

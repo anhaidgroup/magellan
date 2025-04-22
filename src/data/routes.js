@@ -5,12 +5,20 @@ const routes = [
     path: '/',
   },
   {
-    label: 'Code',
-    path: '/code',
+    label: 'About',
+    path: '/about',
+  },
+  {
+    label: 'Software',
+    path: '/software',
   },
   {
     label: 'Data',
     path: '/data',
+  },
+  {
+    label: 'Research',
+    path: '/research',
   },
   {
     label: 'Case Studies',
@@ -19,14 +27,6 @@ const routes = [
   {
     label: 'Lessons Learned',
     path: '/lessonslearned',
-  },
-  {
-    label: 'About',
-    path: '/about',
-  },
-  {
-    label: 'Contact',
-    path: '/contact',
   },
 ];
 
