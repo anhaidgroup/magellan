@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Main from '../layouts/Main';
+import examplepic from '../images/magellan_tech_about_image.png';
 
 const About = () => (
   <Main title="About" description="About MagellanTech.">
@@ -16,8 +17,10 @@ const About = () => (
       <section>
         <h3>Entity Matching</h3>
         <span className="image right">
-          {/* TODO: replace with your actual figure */}
-          <em>Figure placeholder</em>
+          <img
+            src={examplepic}
+            alt="Diagram illustrating blocking and matching in entity matching"
+          />
         </span>
         <p>
           Entity Matching (EM) is the problem of finding data instances that refer to the same

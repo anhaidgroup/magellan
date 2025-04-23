@@ -12,7 +12,6 @@ const Index = () => (
           <h2>
             <Link to="/">Fast and Accurate Entity Matching with AI</Link>
           </h2>
-          <p></p>
         </div>
       </header>
 
