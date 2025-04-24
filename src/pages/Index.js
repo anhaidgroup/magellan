@@ -27,6 +27,7 @@ const Index = () => (
             3/15/2025: This site (the new homepage of Magellan) is launched. Still under heavy
             construction.{' '}
           </li>
+            <li> Just testing</li>
         </ul>
       </section>
 
