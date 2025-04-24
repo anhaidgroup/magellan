@@ -1,0 +1,32 @@
+# .github/workflows/deploy.yml
+name: Deploy React site to GitHub Pages
+
+on:
+  workflow_dispatch:          # ↖ makes the “Run workflow” button appear
+  push:                       # optional – keep or remove
+    branches: [ main ]
+
+permissions:
+  contents: write             # lets the built-in GITHUB_TOKEN push to gh-pages
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Build & publish
+        run: npm run deploy        # runs predeploy → build → gh-pages
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
