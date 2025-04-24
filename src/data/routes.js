@@ -1,7 +1,7 @@
 const routes = [
   {
     index: true,
-    label: 'Magellan Tech',
+    label: 'Magellan',
     path: '/',
   },
   {

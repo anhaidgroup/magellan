@@ -7,10 +7,10 @@
 /* Menu */
 
 #menu {
-  @include vendor("transform", "translateX(#{_size(menu)})");
+  @include vendor('transform', 'translateX(#{_size(menu)})');
   @include vendor(
-    "transition",
-    ("transform #{_duration(menu)} ease", "visibility #{_duration(menu)}")
+    'transition',
+    ('transform #{_duration(menu)} ease', 'visibility #{_duration(menu)}')
   );
   -webkit-overflow-scrolling: touch;
   background: _palette(bg);
@@ -54,7 +54,7 @@
         border-bottom: 0;
 
         h3 {
-          @include vendor("transition", "color #{_duration(transition)} ease");
+          @include vendor('transition', 'color #{_duration(transition)} ease');
           font-size: 0.7em;
         }
 
@@ -66,7 +66,6 @@
           letter-spacing: _size(letter-spacing-alt);
           margin-bottom: 0;
           text-decoration: none;
-          text-transform: uppercase;
         }
 
         &:hover {
@@ -85,7 +84,7 @@
   }
 
   body.is-menu-visible & {
-    @include vendor("transform", "translateX(0)");
+    @include vendor('transform', 'translateX(0)');
     visibility: visible;
   }
 

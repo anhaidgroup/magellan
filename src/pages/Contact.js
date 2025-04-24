@@ -5,7 +5,7 @@ import Main from '../layouts/Main';
 import EmailLink from '../components/Contact/EmailLink';
 
 const Contact = () => (
-  <Main title="Contact" description="Contact Magellan Tech via email @ example@example.com">
+  <Main title="Contact" description="Contact Magellan via email @ entitiymatchinginfo@gmail.com">
     <article className="post" id="contact">
       <header>
         <div className="title">
