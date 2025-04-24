@@ -26,7 +26,13 @@ jobs:
       - name: Install deps
         run: npm ci
 
+      - name: Tell git who is committing
+        run: |
+          git config --global user.name  "github-actions-bot"
+          git config --global user.email "github-actions-bot@users.noreply.github.com"
+      
       - name: Build & publish
-        run: npm run deploy        # runs predeploy → build → gh-pages
+        run: npm run deploy
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
