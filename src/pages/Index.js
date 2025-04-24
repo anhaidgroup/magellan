@@ -10,7 +10,7 @@ const Index = () => (
       <header>
         <div className="title">
           <h2>
-            <Link to="/">Fast and Accurate Entity Matching with AI - Changed</Link>
+            <Link to="/">Fast and Accurate Entity Matching with AI</Link>
           </h2>
         </div>
       </header>
