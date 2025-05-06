@@ -30,12 +30,12 @@ const About = () => (
         </p>
         <p>
           This problem often arises in data science and AI. Many such projects must combine multiple
-          datasets into a single clean unified dataset, then analyze this dataset to extract
+          datasets into a single clean unified dataset, then analyze it to extract
           insights or use it to train AI. To combine multiple datasets, we often must solve the EM
           problem.
         </p>
         <p>
-          The EM problem is challenging for two reasons. First, data instances that match often
+          This problem is challenging for two reasons. First, data instances that match often
           appear in different forms, using different words, making it difficult to achieve high
           matching accuracy. Second, Tables A and B are often very large, having 100M to 500M tuples
           or more, making it difficult to achieve reasonable runtime.
