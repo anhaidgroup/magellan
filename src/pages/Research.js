@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Main from '../layouts/Main';
 
 const Research = () => (
-  <Main title="Research" description="The research projects under MagellanTech's umbrella.">
+  <Main title="Research" description="The research projects under Magellan's umbrella.">
     <article className="post" id="research">
       <header>
         <div className="title">
@@ -14,7 +14,6 @@ const Research = () => (
       </header>
 
       <section>
-        <h3>Research</h3>
         <p>
           In this page we describe the research projects that fall under the Magellan umbrella. (If
           you have worked on one of these projects yet do not see your name listed here, please
@@ -27,7 +26,7 @@ const Research = () => (
           This project develops an EM platform using Python packages on a single machine (e.g.,
           pandas, sklearn). PyMatcher is intended for matching tables of small to medium size (e.g.,
           up to a few million tuples per table). It includes tools to take samples from the tables,
-          using the samples to find an accurate EM pipeline, then apply that pipeline to match the
+          use the samples to find an accurate EM pipeline, then apply that pipeline to match the
           original tables.
         </p>
       </section>
