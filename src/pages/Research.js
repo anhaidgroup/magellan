@@ -29,7 +29,12 @@ const Research = () => (
           use the samples to find an accurate EM pipeline, then apply that pipeline to match the
           original tables.
         </p>
+            Selected Publications
+            <ul> <li>test1</li> 
+                <li>test2</li>
+              </ul>
       </section>
+              
       <section>
         <h3>SparkMatcher</h3>
       </section>
