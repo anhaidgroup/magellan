@@ -45,7 +45,7 @@ const About = () => (
       <section>
         <h3>Blocking and Matching</h3>
         <p>
-          Considering all pairs between the two tables A and B is practically infeasible for large
+          Considering all pairs between Tables A and B is practically infeasible for large
           tables. So EM is typically performed in two steps: blocking and matching (and the Magellan
           project develops software for both steps). The blocking step uses heuristics to quickly
           remove a large number of pairs judged unlikely to match. The matching step applies a rule‑
@@ -54,8 +54,7 @@ const About = () => (
         <p>
           For example, in the above figure, the blocking step keeps only those pairs that share the
           same state (this can be done quickly using an index on Column “State”). Then the matching
-          step applies a matcher that predicts pairs <code>(a1,b1)</code> and <code>(a3,b2)</code>{' '}
-          to be matches.
+          step applies a matcher that predicts pairs (a1,b1) and (a3,b2) to be matches.
         </p>
       </section>
 
@@ -85,7 +84,7 @@ const About = () => (
           This project was started in 2015 at the University of Wisconsin‑Madison. By that time,
           even though numerous publications on EM existed, we had not found any industrial‑strength
           EM software. So our goal has been to develop industrial‑strength open‑source software for
-          entity matching (EM), work with customers to evaluate these products, use the evaluations
+          EM, work with customers to evaluate these products, use the evaluations
           to refine the products, and publish the findings.
         </p>
         <p>
