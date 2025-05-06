@@ -16,7 +16,7 @@ const Index = () => (
       </header>
 
       <section>
-        <h3>Latest News:</h3>
+        <h3>Latest News</h3>
         <ul>
           <li>4/12/2025: MadMatcher, our latest EM startup, is founded by Dev Ahluwalia.</li>
           <li>
@@ -27,7 +27,6 @@ const Index = () => (
             3/15/2025: This site (the new homepage of Magellan) is launched. Still under heavy
             construction.{' '}
           </li>
-            <li> Just testing</li>
         </ul>
       </section>
 
