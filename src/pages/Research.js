@@ -23,7 +23,7 @@ const Research = () => (
       <section>
         <h3>PyMatcher (2015 - Date)</h3>
         <p>
-          This project develops an EM platform using Python packages on a single machine (e.g.,
+          This project develops an EM platform that uses Python packages on a single machine (e.g.,
           pandas, sklearn). PyMatcher is intended for matching tables of small to medium size (e.g.,
           up to a few million tuples per table). It includes tools to take samples from the tables,
           use the samples to find an accurate EM pipeline, then apply that pipeline to match the
