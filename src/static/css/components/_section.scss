@@ -16,7 +16,7 @@ article {
 header {
   p {
     font-family: _font(family-heading);
-    font-size: 0.7em;
+    font-size: 1.125rem;
     font-weight: _font(weight-heading);
     letter-spacing: _font(kerning-heading);
     line-height: 2.5;
@@ -24,7 +24,16 @@ header {
   }
 }
 
+h3 {
+  font-size: 1.75rem;
+}
+
 ul {
   padding-left: 2rem;
   list-style-position: inside;
+  font-size: 1.125rem;
+}
+
+p {
+  font-size: 1.125rem;
 }
