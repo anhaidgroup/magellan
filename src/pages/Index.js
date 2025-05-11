@@ -18,14 +18,13 @@ const Index = () => (
       <section>
         <h3>Latest News</h3>
         <ul>
-          <li>4/12/2025: MadMatcher, our latest EM startup, is founded by Dev Ahluwalia.</li>
-          <li>
-            4/10/2025: Delex, our latest blocker, is released. Delex combines multiple blocking
-            techniques and scales to hundreds of millions of tuples, using Spark.{' '}
+          <li><i>4/12/2025: MadMatcher, our latest EM startup, is founded by Dev Ahluwalia.</i></li>
+          <li><i>4/10/2025: Delex, our latest blocker, is released. Delex combines multiple blocking
+            techniques and scales to hundreds of millions of tuples, using Spark.</i>
           </li>
           <li>
-            3/15/2025: This site (the new homepage of Magellan) is launched. Still under heavy
-            construction.{' '}
+            <i>3/15/2025: This site (the new homepage of Magellan) is launched. Still under heavy
+            construction.{' '}</i>
           </li>
         </ul>
       </section>
