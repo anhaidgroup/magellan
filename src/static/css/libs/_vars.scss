@@ -57,3 +57,25 @@ $palette: (
   border-alt: rgba(160, 160, 160, 0.65),
   accent: #2e59ba,
 );
+
+// Example SCSS for adjusting header sizes
+
+// Default styles for h2 and h3
+h2 {
+  font-size: 2em; // Default size for h2
+}
+
+h3 {
+  font-size: 1.5em; // Default size for h3
+}
+
+// Media query for smaller screens
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.75em; // Adjusted size for h2 on smaller screens
+  }
+
+  h3 {
+    font-size: 1.25em; // Adjusted size for h3 on smaller screens
+  }
+}
