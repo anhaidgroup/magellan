@@ -7,9 +7,7 @@ const Research = () => (
     <article className="post" id="research">
       <header>
         <div className="title">
-          <h2>
-            <Link to="/research">Research</Link>
-          </h2>
+          <h2>Research</h2>
         </div>
       </header>
 
@@ -29,12 +27,14 @@ const Research = () => (
           use the samples to find an accurate EM pipeline, then apply that pipeline to match the
           original tables.
         </p>
-            Selected Publications
-            <ul> <li>test1</li> 
-                <li>test2</li>
-              </ul>
+        Selected Publications
+        <ul>
+          {' '}
+          <li>test1</li>
+          <li>test2</li>
+        </ul>
       </section>
-              
+
       <section>
         <h3>SparkMatcher</h3>
       </section>

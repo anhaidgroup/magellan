@@ -10,9 +10,7 @@ const Software = () => (
     <article className="post" id="software">
       <header>
         <div className="title">
-          <h2>
-            <Link to="/software">Software</Link>
-          </h2>
+          <h2>Software</h2>
         </div>
       </header>
       <section>

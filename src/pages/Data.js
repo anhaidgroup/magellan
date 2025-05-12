@@ -10,9 +10,7 @@ const Data = () => (
     <article className="post" id="data">
       <header>
         <div className="title">
-          <h2>
-            <Link to="/data">Data</Link>
-          </h2>
+          <h2>Data</h2>
         </div>
       </header>
       <section>

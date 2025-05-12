@@ -11,9 +11,7 @@ const CaseStudies = () => (
     <article className="post" id="case-studies">
       <header>
         <div className="title">
-          <h2>
-            <Link to="/case-studies">Case Studies</Link>
-          </h2>
+          <h2>Case Studies</h2>
         </div>
       </header>
       <section>

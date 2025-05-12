@@ -13,9 +13,7 @@ const LessonsLearned = () => (
     <article className="post" id="lessons">
       <header>
         <div className="title">
-          <h2>
-            <Link to="/lessons-learned">Lessons Learned</Link>
-          </h2>
+          <h2>Lessons Learned</h2>
         </div>
       </header>
       <section>

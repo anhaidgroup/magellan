@@ -8,9 +8,7 @@ const About = () => (
     <article className="post" id="about">
       <header>
         <div className="title">
-          <h2>
-            <Link to="/about">About</Link>
-          </h2>
+          <h2>About</h2>
         </div>
       </header>
 
@@ -25,31 +23,30 @@ const About = () => (
         <p>
           Entity Matching (EM) is the problem of finding data instances that refer to the same
           real‑world entity. For example, given the two tables A and B shown here, find all tuple
-          pairs (a in A, b in B) that match, such as (Dave Smith, Madison, WI)
-          and (David D. Smith, Madison, WI). We call these pairs “matches".
+          pairs (a in A, b in B) that match, such as (Dave Smith, Madison, WI) and (David D. Smith,
+          Madison, WI). We call these pairs “matches".
         </p>
         <p>
           This problem often arises in data science and AI. Many such projects must combine multiple
-          datasets into a single clean unified dataset, then analyze it to extract
-          insights or use it to train AI. To combine multiple datasets, we often must solve the EM
-          problem.
+          datasets into a single clean unified dataset, then analyze it to extract insights or use
+          it to train AI. To combine multiple datasets, we often must solve the EM problem.
         </p>
         <p>
-          This problem is challenging for two reasons. First, data instances that match often
-          appear in different forms, using different words, making it difficult to achieve high
-          matching accuracy. Second, Tables A and B are often very large, having 100M to 500M tuples
-          or more, making it difficult to achieve reasonable runtime.
+          This problem is challenging for two reasons. First, data instances that match often appear
+          in different forms, using different words, making it difficult to achieve high matching
+          accuracy. Second, Tables A and B are often very large, having 100M to 500M tuples or more,
+          making it difficult to achieve reasonable runtime.
         </p>
       </section>
 
       <section>
         <h3>Blocking and Matching</h3>
         <p>
-          Considering all pairs between Tables A and B is practically infeasible for large
-          tables. So EM is typically performed in two steps: blocking and matching (and the Magellan
-          project develops software for both steps). The blocking step uses heuristics to quickly
-          remove a large number of pairs judged unlikely to match. The matching step applies a rule‑
-          or ML‑based matcher to each remaining pair, to predict match or non‑match.
+          Considering all pairs between Tables A and B is practically infeasible for large tables.
+          So EM is typically performed in two steps: blocking and matching (and the Magellan project
+          develops software for both steps). The blocking step uses heuristics to quickly remove a
+          large number of pairs judged unlikely to match. The matching step applies a rule‑ or
+          ML‑based matcher to each remaining pair, to predict match or non‑match.
         </p>
         <p>
           For example, in the above figure, the blocking step keeps only those pairs that share the
@@ -84,8 +81,8 @@ const About = () => (
           This project was started in 2015 at the University of Wisconsin‑Madison. By that time,
           even though numerous publications on EM existed, we had not found any industrial‑strength
           EM software. So our goal has been to develop industrial‑strength open‑source software for
-          EM, work with customers to evaluate these products, use the evaluations
-          to refine the products, and publish the findings.
+          EM, work with customers to evaluate these products, use the evaluations to refine the
+          products, and publish the findings.
         </p>
         <p>
           The goal is to release EM software that can find widespread use. Publishing findings is an

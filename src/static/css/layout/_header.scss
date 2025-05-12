@@ -42,7 +42,7 @@ body {
   h1 {
     height: inherit;
     line-height: inherit;
-    padding: 0 0 0 1em;
+    padding: 0 1em 0 1em;
     white-space: nowrap;
 
     a {
@@ -55,7 +55,7 @@ body {
     border-left: solid 1px _palette(border);
     height: inherit;
     line-height: inherit;
-    margin-left: 1.5em;
+    //margin-left: 1.5em;
     overflow: hidden;
     padding-left: 1.5em;
 

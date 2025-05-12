@@ -9,22 +9,27 @@ const Index = () => (
     <article className="post" id="index">
       <header>
         <div className="title">
-          <h2>
-            <Link to="/">Fast and Accurate Entity Matching with AI</Link>
-          </h2>
+          <h2>Fast and Accurate Entity Matching with AI</h2>
         </div>
       </header>
 
       <section>
         <h3>Latest News</h3>
         <ul>
-          <li><i>4/12/2025: MadMatcher, our latest EM startup, is founded by Dev Ahluwalia.</i></li>
-          <li><i>4/10/2025: Delex, our latest blocker, is released. Delex combines multiple blocking
-            techniques and scales to hundreds of millions of tuples, using Spark.</i>
+          <li>
+            <i>4/12/2025: MadMatcher, our latest EM startup, is founded by Dev Ahluwalia.</i>
           </li>
           <li>
-            <i>3/15/2025: This site (the new homepage of Magellan) is launched. Still under heavy
-            construction.{' '}</i>
+            <i>
+              4/10/2025: Delex, our latest blocker, is released. Delex combines multiple blocking
+              techniques and scales to hundreds of millions of tuples, using Spark.
+            </i>
+          </li>
+          <li>
+            <i>
+              3/15/2025: This site (the new homepage of Magellan) is launched. Still under heavy
+              construction.{' '}
+            </i>
           </li>
         </ul>
       </section>
