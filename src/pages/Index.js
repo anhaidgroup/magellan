@@ -28,7 +28,7 @@ const Index = () => (
           <li>
             <i>
               3/15/2025: This site (the new homepage of Magellan) is launched. Still under heavy
-              construction.{' '}
+              construction.
             </i>
           </li>
         </ul>
@@ -37,7 +37,7 @@ const Index = () => (
       <section>
         <p>
           Started in 2015, the Magellan project focuses on entity matching, a pervasive problem in
-          data integration, which in turn is often required for data science and AI projects.{' '}
+          data integration, which in turn is often required for data science and AI projects.
         </p>
       </section>
 
