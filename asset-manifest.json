@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/magellan/static/css/main.082c55a9.css",
-    "main.js": "/magellan/static/js/main.a8c25464.js",
+    "main.css": "/magellan/static/css/main.9b970417.css",
+    "main.js": "/magellan/static/js/main.74d92445.js",
     "static/js/918.a75e5f8b.chunk.js": "/magellan/static/js/918.a75e5f8b.chunk.js",
     "static/js/966.9af9c750.chunk.js": "/magellan/static/js/966.9af9c750.chunk.js",
     "static/js/379.cf5b1c0e.chunk.js": "/magellan/static/js/379.cf5b1c0e.chunk.js",
-    "static/js/938.2a75c7f0.chunk.js": "/magellan/static/js/938.2a75c7f0.chunk.js",
+    "static/js/938.bec15757.chunk.js": "/magellan/static/js/938.bec15757.chunk.js",
     "static/js/62.e736a15e.chunk.js": "/magellan/static/js/62.e736a15e.chunk.js",
     "static/js/615.b471bd96.chunk.js": "/magellan/static/js/615.b471bd96.chunk.js",
     "static/js/807.aefb9828.chunk.js": "/magellan/static/js/807.aefb9828.chunk.js",
@@ -14,12 +14,12 @@
     "static/js/147.319f59e9.chunk.js": "/magellan/static/js/147.319f59e9.chunk.js",
     "static/media/magellan_tech_about_image.png": "/magellan/static/media/magellan_tech_about_image.276571ba55977c8e0290.png",
     "index.html": "/magellan/index.html",
-    "main.082c55a9.css.map": "/magellan/static/css/main.082c55a9.css.map",
-    "main.a8c25464.js.map": "/magellan/static/js/main.a8c25464.js.map",
+    "main.9b970417.css.map": "/magellan/static/css/main.9b970417.css.map",
+    "main.74d92445.js.map": "/magellan/static/js/main.74d92445.js.map",
     "918.a75e5f8b.chunk.js.map": "/magellan/static/js/918.a75e5f8b.chunk.js.map",
     "966.9af9c750.chunk.js.map": "/magellan/static/js/966.9af9c750.chunk.js.map",
     "379.cf5b1c0e.chunk.js.map": "/magellan/static/js/379.cf5b1c0e.chunk.js.map",
-    "938.2a75c7f0.chunk.js.map": "/magellan/static/js/938.2a75c7f0.chunk.js.map",
+    "938.bec15757.chunk.js.map": "/magellan/static/js/938.bec15757.chunk.js.map",
     "62.e736a15e.chunk.js.map": "/magellan/static/js/62.e736a15e.chunk.js.map",
     "615.b471bd96.chunk.js.map": "/magellan/static/js/615.b471bd96.chunk.js.map",
     "807.aefb9828.chunk.js.map": "/magellan/static/js/807.aefb9828.chunk.js.map",
@@ -28,7 +28,7 @@
     "147.319f59e9.chunk.js.map": "/magellan/static/js/147.319f59e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.082c55a9.css",
-    "static/js/main.a8c25464.js"
+    "static/css/main.9b970417.css",
+    "static/js/main.74d92445.js"
   ]
 }
