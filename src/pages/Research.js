@@ -19,7 +19,7 @@ const Research = () => (
         </p>
       </section>
       <section>
-        <h6>PyMatcher (2015 - Date)</h6>
+        <h3>PyMatcher (2015 - Date)</h3>
         <p>
           This project develops an EM platform that uses Python packages on a single machine (e.g.,
           pandas, sklearn). PyMatcher is intended for matching tables of small to medium size (e.g.,
@@ -36,19 +36,19 @@ const Research = () => (
       </section>
 
       <section>
-        <h6>SparkMatcher</h6>
+        <h3>SparkMatcher</h3>
       </section>
       <section>
-        <h6>CloudMatcher</h6>
+        <h3>CloudMatcher</h3>
       </section>
       <section>
-        <h6>Corleone and Falcone</h6>
+        <h3>Corleone and Falcone</h3>
       </section>
       <section>
-        <h6>Deep Learning</h6>
+        <h3>Deep Learning</h3>
       </section>
       <section>
-        <h6>String Matching, Schema Matching, Ontology Matching, and Others</h6>
+        <h3>String Matching, Schema Matching, Ontology Matching, and Others</h3>
       </section>
     </article>
   </Main>

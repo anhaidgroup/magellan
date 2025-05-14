@@ -24,7 +24,7 @@ header {
 }
 
 h3 {
-  font-size: 1.75rem;
+  font-size: 1.125rem;
   padding-bottom: 1rem;
 }
 
@@ -43,10 +43,10 @@ h6 {
 }
 @include breakpoint(small) {
   .post > header .title h2 {
-    font-size: 1.8em;
+    font-size: 2rem;
   }
   section h3 {
-    font-size: 1.5em;
+    //font-size: 1.5rem;
     line-height: 1.5rem;
     padding-bottom: 1.2rem;
   }
