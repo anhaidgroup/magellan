@@ -80,7 +80,7 @@ const Index = () => (
         <p>
           If you need EM software, check out MadMatcher for the polished software offering, or check
           out Magellan (this site) for cutting-edge software still in alpha testing (and the latest
-          research findings), or contact us at entitymatchinginfo@gmail.com.
+          research findings), or email <a href="mailto:entitymatchinginfo@gmail.com">us.</a>
         </p>
       </section>
     </article>

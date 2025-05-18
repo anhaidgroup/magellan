@@ -98,7 +98,10 @@ const About = () => (
           "Research" section. The current team (as of April 2025) consists of Derek Paulsen, Dev
           Ahluwalia, Anson Doan, and AnHai Doan, who are working on the SparkMatcher software.
         </p>
-        <p>To contact us with any requests, please email entitymatchinginfo@gmail.com.</p>
+        <p>
+          To contact us with any requests, please email&nbsp;
+          <a href="mailto:entitymatchinginfo@gmail.com">us.</a>
+        </p>
       </section>
     </article>
   </Main>
