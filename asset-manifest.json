@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/magellan/static/css/main.a3bef403.css",
-    "main.js": "/magellan/static/js/main.beac28f4.js",
+    "main.js": "/magellan/static/js/main.e35ed368.js",
     "static/js/918.fc43596a.chunk.js": "/magellan/static/js/918.fc43596a.chunk.js",
     "static/js/966.9af9c750.chunk.js": "/magellan/static/js/966.9af9c750.chunk.js",
     "static/js/379.cf5b1c0e.chunk.js": "/magellan/static/js/379.cf5b1c0e.chunk.js",
@@ -15,7 +15,7 @@
     "static/media/magellan_tech_about_image.png": "/magellan/static/media/magellan_tech_about_image.276571ba55977c8e0290.png",
     "index.html": "/magellan/index.html",
     "main.a3bef403.css.map": "/magellan/static/css/main.a3bef403.css.map",
-    "main.beac28f4.js.map": "/magellan/static/js/main.beac28f4.js.map",
+    "main.e35ed368.js.map": "/magellan/static/js/main.e35ed368.js.map",
     "918.fc43596a.chunk.js.map": "/magellan/static/js/918.fc43596a.chunk.js.map",
     "966.9af9c750.chunk.js.map": "/magellan/static/js/966.9af9c750.chunk.js.map",
     "379.cf5b1c0e.chunk.js.map": "/magellan/static/js/379.cf5b1c0e.chunk.js.map",
@@ -29,6 +29,6 @@
   },
   "entrypoints": [
     "static/css/main.a3bef403.css",
-    "static/js/main.beac28f4.js"
+    "static/js/main.e35ed368.js"
   ]
 }
