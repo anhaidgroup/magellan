@@ -19,7 +19,7 @@ const LessonsLearned = lazy(() => import('./pages/LessonsLearned'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 
 const App = () => (
-  <BrowserRouter basename={PUBLIC_URL}>
+  <BrowserRouter basename="/magellan">
     <Suspense fallback={<Main />}>
       <Routes>
         <Route path="/" element={<Index />} />
