@@ -60,6 +60,15 @@ a {
   }
 }
 
+a,
+strong,
+b,
+em,
+i {
+  line-height: inherit;
+  vertical-align: baseline;
+}
+
 strong,
 b {
   color: _palette(fg-bold);

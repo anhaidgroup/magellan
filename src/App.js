@@ -8,13 +8,12 @@ const { PUBLIC_URL } = process.env;
 // Every route - we lazy load so that each page can be chunked
 // NOTE that some of these chunks are very small. We should optimize
 // which pages are lazy loaded in the future.
-const About = lazy(() => import('./pages/About'));
-const Data = lazy(() => import('./pages/Data'));
-const Software = lazy(() => import('./pages/Software'));
-const Research = lazy(() => import('./pages/Research'));
-const CaseStudies = lazy(() => import('./pages/CaseStudies'));
-const Contact = lazy(() => import('./pages/Contact'));
 const Index = lazy(() => import('./pages/Index'));
+const About = lazy(() => import('./pages/About'));
+const Research = lazy(() => import('./pages/Research'));
+const Software = lazy(() => import('./pages/Software'));
+const Data = lazy(() => import('./pages/Data'));
+const Users = lazy(() => import('./pages/Users'));
 const LessonsLearned = lazy(() => import('./pages/LessonsLearned'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 
@@ -24,10 +23,10 @@ const App = () => (
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/about" element={<About />} />
+        <Route path="/research" element={<Research />} />
         <Route path="/software" element={<Software />} />
         <Route path="/data" element={<Data />} />
-        <Route path="/research" element={<Research />} />
-        <Route path="/casestudies" element={<CaseStudies />} />
+        <Route path="/users" element={<Users />} />
         <Route path="/lessonslearned" element={<LessonsLearned />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

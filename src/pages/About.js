@@ -12,97 +12,101 @@ const About = () => (
         </div>
       </header>
 
-      <section>
-        <h3>Entity Matching</h3>
-        <span className="image right">
-          <img
-            src={examplepic}
-            alt="Diagram illustrating blocking and matching in entity matching"
-          />
-        </span>
-        <p>
-          Entity Matching (EM) is the problem of finding data instances that refer to the same
-          real‑world entity. For example, given the two tables A and B shown here, find all tuple
-          pairs (a in A, b in B) that match, such as (Dave Smith, Madison, WI) and (David D. Smith,
-          Madison, WI). We call these pairs “matches".
-        </p>
-        <p>
-          This problem often arises in data science and AI. Many such projects must combine multiple
-          datasets into a single clean unified dataset, then analyze it to extract insights or use
-          it to train AI. To combine multiple datasets, we often must solve the EM problem.
-        </p>
-        <p>
-          This problem is challenging for two reasons. First, data instances that match often appear
-          in different forms, using different words, making it difficult to achieve high matching
-          accuracy. Second, Tables A and B are often very large, having 100M to 500M tuples or more,
-          making it difficult to achieve reasonable runtime.
-        </p>
-      </section>
+      <h3>Entity Matching</h3>
+      <span className="image right">
+        <img src={examplepic} alt="Diagram illustrating blocking and matching in entity matching" />
+      </span>
+      <p>
+        Entity Matching (EM) is the problem of finding data instances that refer to the same
+        real-world entity. For example, given the two tables A and B shown below, find all tuple
+        pairs (a in A, b in B) that match, such as (Dave Smith, Madison, WI) and (David D. Smith,
+        Madison, WI). We call these pairs <b>matches</b>.
+      </p>
+      <p>
+        EM arises frequently in data science and AI. Many projects must integrate multiple datasets
+        into a single, clean, unified dataset before analysis or model training can take place.
+        Solving the entity matching problem is often a necessary step in this integration process.
+      </p>
+      <p>
+        The EM problem is challenging for two main reasons. First, matching instances may be
+        represented in different ways—using different names, formats, or levels of detail—making{' '}
+        <b>high-accuracy matching</b> difficult. Second, real-world datasets are often very large:
+        tables commonly contain hundreds of millions of tuples, which makes achieving{' '}
+        <b>reasonable runtime and scalability</b> a major challenge.
+      </p>
 
-      <section>
-        <h3>Blocking and Matching</h3>
-        <p>
-          Considering all pairs between Tables A and B is practically infeasible for large tables.
-          So EM is typically performed in two steps: blocking and matching (and the Magellan project
-          develops software for both steps). The blocking step uses heuristics to quickly remove a
-          large number of pairs judged unlikely to match. The matching step applies a rule‑ or
-          ML‑based matcher to each remaining pair, to predict match or non‑match.
-        </p>
-        <p>
-          For example, in the above figure, the blocking step keeps only those pairs that share the
-          same state (this can be done quickly using an index on Column “State”). Then the matching
-          step applies a matcher that predicts pairs (a1,b1) and (a3,b2) to be matches.
-        </p>
-      </section>
+      <h3>Blocking and Matching</h3>
+      <p>
+        For large tables, considering all possible pairs between tables A and B is computationally
+        infeasible. As a result, entity matching is typically performed in two stages:{' '}
+        <b>blocking</b> and <b>matching</b>. (The Magellan project develops software that supports
+        both stages.)
+      </p>
+      <p>
+        In the <b>blocking</b> stage, inexpensive heuristics are used to quickly eliminate the vast
+        majority of tuple pairs that are unlikely to match. The goal is to dramatically reduce the
+        search space while retaining most true matches.
+      </p>
+      <p>
+        In the <b>matching</b> stage, a more expensive rule-based or machine-learning–based matcher
+        is applied to the remaining candidate pairs to predict whether each pair is a match or a
+        non-match.
+      </p>
+      <p>
+        For example, in the figure above, the blocking step retains only pairs that share the same
+        state (which can be done efficiently using an index on the State column). The matching step
+        then applies a matcher that correctly predicts pairs (a1,b1) and (a3,b2​) as matches.
+      </p>
 
-      <section>
-        <h3>Variations of EM and Related Problems</h3>
-        <p>
-          Variations of EM are known as entity resolution, record linkage, deduplication, and more.
-          We use the term “entity matching” because there are many other related problems, and their
-          names all end with “matching.”
-        </p>
-        <p>
-          Specifically, string matching finds strings that refer to the same real-world concept,
-          such as "UW-Madison" and "Univ of Wisc Madison". Schema matching finds similar columns
-          across tables, such as "address" and "location". Ontology matching finds similar concepts
-          across ontologies, such as "car" and "automobile". Other related problems include matching
-          between ontology concepts and table columns, matching tables, and more.{' '}
-        </p>
-        <p>
-          While Magellan is designed primarily for EM, it can also be used for these related
-          matching problems.
-        </p>
-      </section>
+      <h3>Variations of EM and Related Problems</h3>
+      <p>
+        Variations of EM are known as <b>entity resolution, record linkage, deduplication,</b> and
+        more. We use the term <b>entity matching</b> because it emphasizes the common structure
+        shared by these tasks and aligns with a broader set of related problems whose names end with{' '}
+        <i>matching</i>.
+      </p>
+      <p>
+        Specifically, <b>string matching</b> finds strings that refer to the same real-world
+        concept, such as "UW-Madison" and "Univ of Wisc Madison". <b>Schema matching</b> finds
+        similar columns across tables, such as "address" and "location". <b>Ontology matching</b>{' '}
+        finds similar concepts across ontologies, such as "car" and "automobile". Other related
+        problems include matching between ontology concepts and table columns, matching tables, and
+        more.
+      </p>
+      <p>
+        While Magellan is designed primarily for EM, it can also be used for these related matching
+        problems.
+      </p>
 
-      <section>
-        <h3>The Magellan Project</h3>
-        <p>
-          This project was started in 2015 at the University of Wisconsin‑Madison. By that time,
-          even though numerous publications on EM existed, we had not found any industrial‑strength
-          EM software. So our goal has been to develop industrial‑strength open‑source software for
-          EM, work with customers to evaluate these products, use the evaluations to refine the
-          products, and publish the findings.
-        </p>
-        <p>
-          The goal is to release EM software that can find widespread use. Publishing findings is an
-          important part of the project, but is viewed as a side effect of executing the
-          software-customer cycle. We refer to this template as the "academic startup" template.
-        </p>
-      </section>
+      <h3>The Magellan Project</h3>
+      <p>
+        The Magellan project was launched in 2015 at the University of Wisconsin–Madison. At the
+        time, despite a large body of research on entity matching, we found little{' '}
+        <b>industrial-strength software</b> that could be readily used in practice. Our goal has
+        therefore been to develop <b>open-source, production-quality entity matching software</b>,
+        evaluate it through collaborations with real users, use this feedback to refine the
+        software, and publish the resulting findings.
+      </p>
+      <p>
+        A central objective of Magellan is to release EM software that achieves{' '}
+        <b>widespread adoption</b>. While publishing research is an important part of the project,
+        it is viewed as a consequence of executing this iterative{' '}
+        <b>software–user–refinement cycle</b>, rather than an end in itself.
+      </p>
 
-      <section>
-        <h3>Team and Contact</h3>
-        <p>
-          Over the years many people have contributed to Magellan. Their names are listed in the
-          "Research" section. The current team (as of April 2025) consists of Derek Paulsen, Dev
-          Ahluwalia, Anson Doan, and AnHai Doan, who are working on the SparkMatcher software.
-        </p>
-        <p>
-          To contact us with any requests, please email&nbsp;
-          <a href="mailto:entitymatchinginfo@gmail.com">us.</a>
-        </p>
-      </section>
+      <h3>Team and Contact</h3>
+      <p>
+        Many people have contributed to the Magellan project over the years. A list of contributors
+        can be found in the{' '}
+        <a href="./research">
+          <b>Research</b>
+        </a>{' '}
+        section of this website.
+      </p>
+      <p>
+        For inquiries or collaboration requests, please contact us at{' '}
+        <a href="mailto:entitymatchinginfo@gmail.com">entitymatchinginfo@gmail.com</a>.
+      </p>
     </article>
   </Main>
 );

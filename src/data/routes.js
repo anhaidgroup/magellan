@@ -9,6 +9,10 @@ const routes = [
     path: '/about',
   },
   {
+    label: 'Research',
+    path: '/research',
+  },
+  {
     label: 'Software',
     path: '/software',
   },
@@ -17,12 +21,8 @@ const routes = [
     path: '/data',
   },
   {
-    label: 'Research',
-    path: '/research',
-  },
-  {
-    label: 'Case Studies',
-    path: '/casestudies',
+    label: 'Users',
+    path: '/users',
   },
   {
     label: 'Lessons Learned',

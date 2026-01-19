@@ -13,13 +13,11 @@ const Data = () => (
           <h2>Data</h2>
         </div>
       </header>
-      <section>
-        <p>
-          Since the project's inception we have acquired a large number of datasets that can be used
-          to evaluate EM software. This includes BigGoat, our latest benchmark for scaling EM. We
-          will list those datasets here in the near future.
-        </p>
-      </section>
+      <p>
+        Since the project’s inception, we have collected a large number of datasets for evaluating
+        EM software. This includes BigGoat, our latest benchmark for scaling EM. We plan to list
+        these datasets here in the near future.
+      </p>
     </article>
   </Main>
 );
