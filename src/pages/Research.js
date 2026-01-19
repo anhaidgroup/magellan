@@ -250,7 +250,7 @@ const Research = () => (
       <p>PyMatcher consists of three open-source Python packages</p>
       <ul>
         <li>
-          <a href="https://sites.google.com/site/anhaidgroup/current-projects/magellan?authuser=0">
+          <a href="https://sites.google.com/site/anhaidgroup/current-projects/magellan/py_stringmatching?authuser=0">
             py_stringmatching
           </a>
           : Implements a wide range of string tokenizers and string similarity functions.
