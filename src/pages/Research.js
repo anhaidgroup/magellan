@@ -25,7 +25,7 @@ const Research = () => (
       <p>Papers</p>
       <ul>
         <li>
-          Sparkly: A Simple yet Surprisingly Strong TF/IDF Blocker for Entity Matching, D. Paulsen,
+          <a href="https://dl.acm.org/doi/10.14778/3583140.3583163">Sparkly: A Simple yet Surprisingly Strong TF/IDF Blocker for Entity Matching</a>, D. Paulsen,
           Y. Govind, A. Doan. VLDB-23.
         </li>
       </ul>
