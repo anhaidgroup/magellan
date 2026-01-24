@@ -45,7 +45,9 @@ const Index = () => (
         <li>
           <b>CloudMatcher</b>
           <br></br>A cloud-based, hands-off entity matching platform. CloudMatcher led to the
-          founding of GreenBay Tech and its acquisition by Informatica in 2020. The technology was
+          founding of <b>GreenBay Tech</b> and 
+          its <a href="https://www.prnewswire.com/news-releases/informatica-acquires-greenbay-technologies-to-advance-ai-and-machine-learning-capabilities-301113629.html">acquisition</a> 
+          by Informatica in 2020. The technology was
           incorporated into multiple Informatica products and has served thousands of enterprise
           customers.
         </li>
@@ -63,7 +65,7 @@ const Index = () => (
       </p>
 
       <p>
-        In 2025, the project inspired a new startup, <b>MadMatcher</b>, founded by Dev Ahluwalia, a
+        In 2025, the project inspired a new startup, <a href="https://madmatcher.ai/">MadMatcher</a>, founded by Dev Ahluwalia, a
         CS graduate student at UW–Madison. MadMatcher builds on and extends SparkMatcher with Generative AI–based entity matching capabilities.
       </p>
 
