@@ -39,7 +39,7 @@ const About = () => (
       <p>
         For large tables, considering all possible pairs between tables A and B is computationally
         infeasible. As a result, entity matching is typically performed in two stages:{' '}
-        <b>blocking</b> and <b>matching</b>. (The Magellan project develops software that supports
+        blocking and matching. (The Magellan project develops software that supports
         both stages.)
       </p>
       <p>
@@ -82,16 +82,16 @@ const About = () => (
       <p>
         The Magellan project was launched in 2015 at the University of Wisconsin–Madison. At the
         time, despite a large body of research on entity matching, we found little{' '}
-        <b>industrial-strength software</b> that could be readily used in practice. Our goal has
+        industrial-strength software that could be readily used in practice. Our goal has
         therefore been to develop <b>open-source, production-quality entity matching software</b>,
         evaluate it through collaborations with real users, use this feedback to refine the
         software, and publish the resulting findings.
       </p>
       <p>
         A central objective of Magellan is to release EM software that achieves{' '}
-        <b>widespread adoption</b>. While publishing research is an important part of the project,
+        widespread adoption. While publishing research is an important part of the project,
         it is viewed as a consequence of executing this iterative{' '}
-        <b>software–user–refinement cycle</b>, rather than an end in itself.
+        software–user–refinement cycle, rather than an end in itself.
       </p>
 
       <h3>Team and Contact</h3>
@@ -99,7 +99,7 @@ const About = () => (
         Many people have contributed to the Magellan project over the years. A list of contributors
         can be found in the{' '}
         <a href="./research">
-          <b>Research</b>
+          Research
         </a>{' '}
         section of this website.
       </p>
