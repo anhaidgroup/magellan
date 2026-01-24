@@ -18,7 +18,7 @@ const LessonsLearned = () => (
       </header>
       <p>
         This page describes the main lessons learned from working with a wide variety of users, and
-        how they have been driving the Magellan project.
+        how they have been driving the Magellan project. This page is still under heavy construction. 
       </p>
       <p>Scale Really Matters</p>
       <p>
