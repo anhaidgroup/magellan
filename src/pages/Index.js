@@ -19,13 +19,12 @@ const Index = () => (
       </header>
 
       <p>
-        Started in 2015, <b>Magellan</b> is a major R&D project at UW–Madison focused on{' '}
-        <b>entity matching (EM)</b>—a foundational challenge in data science and AI that affects
+        Started in 2015, Magellan is a major R&D project at UW–Madison focused on entity matching (EM)—a foundational challenge in data science and AI that affects
         data integration, analytics, and downstream modeling.
       </p>
 
       <p>
-        Our mission is to <b>advance the science and practice of entity matching</b> by building
+        Our mission is to advance the science and practice of entity matching by building
         software, collaborating with real users, transferring technology to industry, and publishing
         high-impact research.
       </p>
@@ -60,14 +59,12 @@ const Index = () => (
       </ul>
 
       <p>
-        Publications from the Magellan project have been cited thousands of times and have received{' '}
-        <b>Research Highlight Awards from both SIGMOD and Communications of the ACM (CACM)</b>.
+        Publications from the Magellan project have been cited thousands of times and have received Research Highlight Awards from both SIGMOD and Communications of the ACM (CACM).
       </p>
 
       <p>
         In 2025, the project inspired a new startup, <b>MadMatcher</b>, founded by Dev Ahluwalia, a
-        CS graduate student at UW–Madison. MadMatcher builds on and extends SparkMatcher with{' '}
-        <b>Generative AI–based entity matching capabilities</b>.
+        CS graduate student at UW–Madison. MadMatcher builds on and extends SparkMatcher with Generative AI–based entity matching capabilities.
       </p>
 
       <p>
@@ -75,12 +72,11 @@ const Index = () => (
       </p>
       <ul>
         <li>
-          For a <b>polished, production-ready solution</b>, check out <b>MadMatcher</b>.
+          For a polished, production-ready solution, check out <a href=madmatcher.ai>MadMatcher</a>.
         </li>
         <br></br>
         <li>
-          For <b>cutting-edge research prototypes and alpha-stage software</b>, explore{' '}
-          <b>Magellan</b> (this site).
+          For cutting-edge research prototypes and alpha-stage software, explore Magellan (this site).
         </li>
         <br></br>
         <li>
