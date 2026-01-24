@@ -11,7 +11,10 @@ const Index = () => (
         <div className="title">
           <h2>Fast and Accurate Entity Matching with AI</h2>
           <br></br>
-          <i>From research to real-world scale</i>
+          <br></br>
+          <p>
+            <i>From research to real-world scale</i>
+          </p>
         </div>
       </header>
 

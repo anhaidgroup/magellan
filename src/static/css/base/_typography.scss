@@ -43,19 +43,23 @@ a {
     ('color #{_duration(transition)} ease', 'border-bottom-color #{_duration(transition)} ease')
   );
   border-bottom: dotted 1px _palette(border-alt);
-  color: inherit;
+  color: _palette(link);
   text-decoration: none;
 
   &:before {
     @include vendor('transition', ('color #{_duration(transition)} ease'));
   }
 
+  &:visited {
+    color: _palette(link);
+  }
+
   &:hover {
     border-bottom-color: transparent;
-    color: _palette(accent) !important;
+    color: _palette(link-hover) !important;
 
     &:before {
-      color: _palette(accent) !important;
+      color: _palette(link-hover) !important;
     }
   }
 }
