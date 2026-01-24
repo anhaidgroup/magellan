@@ -72,7 +72,7 @@ const Index = () => (
       </p>
       <ul>
         <li>
-          For a polished, production-ready solution, check out <a href="madmatcher.ai">MadMatcher</a>.
+          For a polished, production-ready solution, check out <a href="https://madmatcher.ai/">MadMatcher</a>.
         </li>
         <br></br>
         <li>
