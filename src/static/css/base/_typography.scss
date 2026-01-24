@@ -42,7 +42,7 @@ a {
     'transition',
     ('color #{_duration(transition)} ease', 'border-bottom-color #{_duration(transition)} ease')
   );
-  border-bottom: dotted 1px _palette(border-alt);
+  border-bottom: 0;
   color: _palette(link);
   text-decoration: none;
 
@@ -55,7 +55,6 @@ a {
   }
 
   &:hover {
-    border-bottom-color: transparent;
     color: _palette(link-hover) !important;
 
     &:before {
