@@ -47,7 +47,7 @@ const Index = () => (
           <br></br>A cloud-based, hands-off entity matching platform. CloudMatcher led to the
           founding of <b>GreenBay Tech</b> and 
           its <a href="https://www.prnewswire.com/news-releases/informatica-acquires-greenbay-technologies-to-advance-ai-and-machine-learning-capabilities-301113629.html">acquisition</a> 
-          by Informatica in 2020. The technology was
+           by Informatica in 2020. The technology was
           incorporated into multiple Informatica products and has served thousands of enterprise
           customers.
         </li>
