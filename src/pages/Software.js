@@ -44,11 +44,12 @@ const Software = () => (
       </p>
       <ul>
         <li>
-          <a href="https://github.com/MadMatcher/MadLib">MadLib</a>: A library for experimenting
-          with a wide range of EM workflows across different runtime environments. It provides
-          modular components that can be composed into flexible matching pipelines, with a primary
-          focus on the matching step. Support for blocking workflows is planned for future releases.
-          MadLib is hosted at <a href="https://madmatcher.ai">MadMatcher</a>, a recent EM startup.
+          <a href="https://github.com/MadMatcher/MatchFlow">MatchFlow</a>: A library for
+          experimenting with a wide range of EM workflows across different runtime environments. It
+          provides modular components that can be composed into flexible matching pipelines, with a
+          primary focus on the matching step. Support for blocking workflows is planned for future
+          releases. MatchFlow is hosted at <a href="https://madmatcher.ai">MadMatcher</a>, a recent
+          EM startup.
         </li>
         <li>
           <a href="https://github.com/anhaidgroup/active_matcher">ActiveMatcher</a>: Uses active

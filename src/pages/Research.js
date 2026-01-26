@@ -25,8 +25,10 @@ const Research = () => (
       <p>Papers</p>
       <ul>
         <li>
-          <a href="https://dl.acm.org/doi/10.14778/3583140.3583163">Sparkly: A Simple yet Surprisingly Strong TF/IDF Blocker for Entity Matching</a>, D. Paulsen,
-          Y. Govind, A. Doan. VLDB-23.
+          <a href="https://dl.acm.org/doi/10.14778/3583140.3583163">
+            Sparkly: A Simple yet Surprisingly Strong TF/IDF Blocker for Entity Matching
+          </a>
+          , D. Paulsen, Y. Govind, A. Doan. VLDB-23.
         </li>
       </ul>
       <p>Software</p>
@@ -57,11 +59,12 @@ const Research = () => (
       </p>
       <ul>
         <li>
-          <a href="https://github.com/MadMatcher/MadLib">MadLib</a>: A library for experimenting
-          with a wide range of EM workflows across different runtime environments. It provides
-          modular components that can be composed into flexible matching pipelines, with a primary
-          focus on the matching step. Support for blocking workflows is planned for future releases.
-          MadLib is hosted at <a href="https://madmatcher.ai">MadMatcher</a>, a recent EM startup.
+          <a href="https://github.com/MadMatcher/MatchFlow">MatchFlow</a>: A library for
+          experimenting with a wide range of EM workflows across different runtime environments. It
+          provides modular components that can be composed into flexible matching pipelines, with a
+          primary focus on the matching step. Support for blocking workflows is planned for future
+          releases. MatchFlow is hosted at <a href="https://madmatcher.ai">MadMatcher</a>, a recent
+          EM startup.
         </li>
         <li>
           <a href="https://github.com/anhaidgroup/active_matcher">ActiveMatcher</a>: Uses active
@@ -79,7 +82,7 @@ const Research = () => (
           currently used by hundreds of customers.
         </li>
         <li>
-          MadLib has been used to build matchers for the{' '}
+          MatchFlow has been used to build matchers for the{' '}
           <a href="https://edirepository.org/">Environmental Data Initiative (EDI)</a>, a major data
           lake serving environmental scientists.
         </li>
