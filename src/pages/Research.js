@@ -22,7 +22,7 @@ const Research = () => (
         This is our latest and most advanced EM platform. It provides blocking and matching tools
         that scale to hundreds of millions of tuples using Spark and AI.
       </p>
-      <p>Papers</p>
+      <p><u>Papers</u></p>
       <ul>
         <li>
           <a href="https://dl.acm.org/doi/10.14778/3583140.3583163">
