@@ -10,7 +10,7 @@ const Index = () => (
       <header>
         <div className="title">
           <h2>Fast and Accurate Entity Matching with AI</h2>
-          <p style={{ marginTop: '0.5em' }}>
+          <p style={{ marginTop: '.75em' }}>
             <i>From research to real-world scale</i>
           </p>
         </div>
