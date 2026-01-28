@@ -18,13 +18,13 @@ const About = () => (
       </span>
       <p>
         Entity Matching (EM) is the problem of finding data instances that refer to the same
-        real-world entity. For example, given the two tables A and B shown below, find all tuple
+        real-world entity. For example, given the two tables A and B shown HERE, find all tuple
         pairs (a in A, b in B) that match, such as (Dave Smith, Madison, WI) and (David D. Smith,
         Madison, WI). We call these pairs <b>matches</b>.
       </p>
       <p>
         EM arises frequently in data science and AI. Many projects must integrate multiple datasets
-        into a single, clean, unified dataset before analysis or model training can take place.
+        into a single clean unified dataset before analysis or model training can take place.
         Solving the entity matching problem is often a necessary step in this integration process.
       </p>
       <p>
@@ -38,9 +38,8 @@ const About = () => (
       <h3>Blocking and Matching</h3>
       <p>
         For large tables, considering all possible pairs between tables A and B is computationally
-        infeasible. As a result, entity matching is typically performed in two stages:{' '}
-        blocking and matching. (The Magellan project develops software that supports
-        both stages.)
+        infeasible. As a result, entity matching is typically performed in two stages: blocking and
+        matching. (The Magellan project develops software that supports both stages.)
       </p>
       <p>
         In the <b>blocking</b> stage, inexpensive heuristics are used to quickly eliminate the vast
@@ -82,26 +81,21 @@ const About = () => (
       <p>
         The Magellan project was launched in 2015 at the University of Wisconsin–Madison. At the
         time, despite a large body of research on entity matching, we found little{' '}
-        industrial-strength software that could be readily used in practice. Our goal has
-        therefore been to develop <b>open-source, production-quality entity matching software</b>,
-        evaluate it through collaborations with real users, use this feedback to refine the
-        software, and publish the resulting findings.
+        industrial-strength software that could be readily used in practice. Our goal has therefore
+        been to develop <b>open-source, production-quality entity matching software</b>, evaluate it
+        through collaborations with real users, use this feedback to refine the software, and
+        publish the resulting findings.
       </p>
       <p>
-        A central objective of Magellan is to release EM software that achieves{' '}
-        widespread adoption. While publishing research is an important part of the project,
-        it is viewed as a consequence of executing this iterative{' '}
-        software–user–refinement cycle, rather than an end in itself.
+        A central objective of Magellan is to release EM software that achieves widespread adoption.
+        While publishing research is an important part of the project, it is viewed as a consequence
+        of executing this iterative software–user–refinement cycle, rather than an end in itself.
       </p>
 
       <h3>Team and Contact</h3>
       <p>
         Many people have contributed to the Magellan project over the years. A list of contributors
-        can be found in the{' '}
-        <a href="./research">
-          Research
-        </a>{' '}
-        section of this website.
+        can be found in the <a href="./research">Research</a> section of this website.
       </p>
       <p>
         For inquiries or collaboration requests, please contact us at{' '}

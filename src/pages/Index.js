@@ -10,22 +10,21 @@ const Index = () => (
       <header>
         <div className="title">
           <h2>Fast and Accurate Entity Matching with AI</h2>
-          <br></br>
-          <br></br>
-          <p>
+          <p style={{ marginTop: '0.5em' }}>
             <i>From research to real-world scale</i>
           </p>
         </div>
       </header>
 
       <p>
-        Started in 2015, Magellan is a major R&D project at UW–Madison focused on entity matching (EM)—a foundational challenge in data science and AI that affects
-        data integration, analytics, and downstream modeling.
+        Started in 2015, Magellan is a major R&D project at UW–Madison focused on entity matching
+        (EM)—a foundational challenge in data science and AI that affects data integration,
+        analytics, and downstream modeling.
       </p>
 
       <p>
-        Our mission is to advance the science and practice of entity matching by building
-        software, collaborating with real users, transferring technology to industry, and publishing
+        Our mission is to advance the science and practice of entity matching by building software,
+        collaborating with real users, transferring technology to industry, and publishing
         high-impact research.
       </p>
 
@@ -45,11 +44,12 @@ const Index = () => (
         <li>
           <b>CloudMatcher</b>
           <br></br>A cloud-based, hands-off entity matching platform. CloudMatcher led to the
-          founding of <b>GreenBay Tech</b> and 
-          its <a href="https://www.prnewswire.com/news-releases/informatica-acquires-greenbay-technologies-to-advance-ai-and-machine-learning-capabilities-301113629.html">acquisition</a> 
-           by Informatica in 2020. The technology was
-          incorporated into multiple Informatica products and has served thousands of enterprise
-          customers.
+          founding of <b>GreenBay Tech</b> and its{' '}
+          <a href="https://www.prnewswire.com/news-releases/informatica-acquires-greenbay-technologies-to-advance-ai-and-machine-learning-capabilities-301113629.html">
+            acquisition
+          </a>{' '}
+          by Informatica in 2020. The technology was incorporated into multiple Informatica products
+          and has served thousands of enterprise customers.
         </li>
         <br></br>
         <li>
@@ -61,12 +61,14 @@ const Index = () => (
       </ul>
 
       <p>
-        Publications from the Magellan project have been cited thousands of times and have received Research Highlight Awards from both SIGMOD and Communications of the ACM (CACM).
+        Publications from the Magellan project have been cited thousands of times and have received
+        Research Highlight Awards from both SIGMOD and ACM.
       </p>
 
       <p>
-        In 2025, the project inspired a new startup, <a href="https://madmatcher.ai/">MadMatcher</a>, founded by Dev Ahluwalia, a
-        CS graduate student at UW–Madison. MadMatcher builds on and extends SparkMatcher with Generative AI–based entity matching capabilities.
+        In 2025, the project inspired a new startup, <a href="https://madmatcher.ai/">MadMatcher</a>
+        , founded by Dev Ahluwalia, a CS graduate student at UW–Madison. MadMatcher builds on and
+        extends SparkMatcher with Generative AI–based entity matching capabilities.
       </p>
 
       <p>
@@ -74,11 +76,13 @@ const Index = () => (
       </p>
       <ul>
         <li>
-          For a polished, production-ready solution, check out <a href="https://madmatcher.ai/">MadMatcher</a>.
+          For a polished, production-ready solution, check out{' '}
+          <a href="https://madmatcher.ai/">MadMatcher</a>.
         </li>
         <br></br>
         <li>
-          For cutting-edge research prototypes and alpha-stage software, explore Magellan (this site).
+          For cutting-edge research prototypes and alpha-stage software, explore Magellan (this
+          site).
         </li>
         <br></br>
         <li>

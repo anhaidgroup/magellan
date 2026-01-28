@@ -22,7 +22,7 @@ const Research = () => (
         This is our latest and most advanced EM platform. It provides blocking and matching tools
         that scale to hundreds of millions of tuples using Spark and AI.
       </p>
-      <p><u>Papers</u></p>
+      <p className="section-subheader">Papers</p>
       <ul>
         <li>
           <a href="https://dl.acm.org/doi/10.14778/3583140.3583163">
@@ -31,7 +31,7 @@ const Research = () => (
           , D. Paulsen, Y. Govind, A. Doan. VLDB-23.
         </li>
       </ul>
-      <p>Software</p>
+      <p className="section-subheader">Software</p>
       <p>
         SparkMatcher consists of four open-source packages designed to support end-to-end EM
         workflows at scale.
@@ -60,20 +60,21 @@ const Research = () => (
       <ul>
         <li>
           <a href="https://github.com/MadMatcher/MatchFlow">MatchFlow</a>: A library for
-          experimenting with a wide range of workflows for the matching step, across different runtime environments. It
-          provides modular components that can be composed into flexible matching pipelines. MatchFlow is hosted at <a href="https://madmatcher.ai">MadMatcher</a>, a recent
-          EM startup.
+          experimenting with a wide range of workflows for the matching step, across different
+          runtime environments. It provides modular components that can be composed into flexible
+          matching pipelines. MatchFlow is hosted at <a href="https://madmatcher.ai">MadMatcher</a>,
+          a recent EM startup.
         </li>
         <li>
           <a href="https://github.com/anhaidgroup/active_matcher">ActiveMatcher</a>: Uses active
           learning to train high-accuracy matchers with minimal manual labeling. It automatically
           selects informative tuple pairs for labeling and scales to very large candidate sets
           produced by blocking, often containing hundreds of millions of pairs. ActiveMatcher is
-          currently in beta testing. 
+          currently in beta testing.
         </li>
       </ul>
 
-      <p>Users</p>
+      <p className="section-subheader">Users</p>
       <ul>
         <li>
           A variant of Sparkly has been integrated into widely used industrial EM software and is
@@ -86,19 +87,19 @@ const Research = () => (
         </li>
       </ul>
 
-      <p>Data</p>
+      <p className="section-subheader">Data</p>
       <ul>
         <li> BigGoat: A benchmark for evaluating the scalability of blocking methods.</li>
       </ul>
 
-      <p>Startup</p>
+      <p className="section-subheader">Startup</p>
       <ul>
         <li>
           <a href="https://madmatcher.ai">MadMatcher</a>: Founded by Dev Ahluwalia (2025 - Present)
         </li>
       </ul>
 
-      <p>Team </p>
+      <p className="section-subheader">Team </p>
       <ul>
         <li>Dev Ahluwalia, Derek Paulsen, Yash Govind, Anson Doan</li>
       </ul>
@@ -112,7 +113,7 @@ const Research = () => (
         expertise. CloudMatcher was acquired by Informatica in 2020.
       </p>
 
-      <p>Papers</p>
+      <p className="section-subheader">Papers</p>
       <ul>
         <li>
           <a href="https://pages.cs.wisc.edu/~anhai/papers1/cloudmatcher-demo-vldb18.pdf">
@@ -131,7 +132,7 @@ const Research = () => (
         </li>
       </ul>
 
-      <p>Software</p>
+      <p className="section-subheader">Software</p>
       <ul>
         <li>
           CloudMatcher (no longer available,{' '}
@@ -142,7 +143,7 @@ const Research = () => (
         </li>
       </ul>
 
-      <p>Users</p>
+      <p className="section-subheader">Users</p>
       <ul>
         <li>
           CloudMatcher was used by several domain science teams, hospitals, and companies. See Table
@@ -158,14 +159,14 @@ const Research = () => (
         </li>
       </ul>
 
-      <p>Startup</p>
+      <p className="section-subheader">Startup</p>
       <ul>
         <li>
           GreenBay Technologies: Co-founded by AnHai Doan, Yash Govind, Derek Paulsen (2019 - 2020)
         </li>
       </ul>
 
-      <p>Team</p>
+      <p className="section-subheader">Team</p>
       <ul>
         <li>
           Yash Govind, Erik Paulson, Derek Paulsen, P. Nagarajan, Paul Suganthan GC, Mukilan Ashok,
@@ -181,7 +182,9 @@ const Research = () => (
         those samples to design accurate EM pipelines, and then applying the pipelines to match the
         full tables.
       </p>
-      <p>Papers that describe the overall vision, progress, and demos</p>
+      <p className="section-subheader">
+        Papers that describe the overall vision, progress, and demos
+      </p>
       <ul>
         <li>
           <a href="https://pages.cs.wisc.edu/~anhai/papers/magellan-vldb16.pdf">
@@ -226,7 +229,7 @@ const Research = () => (
           Chandrasekhar, Philip Martinkus, Matthew Christie, Communications of the ACM, 2020.
         </li>
       </ul>
-      <p>Other papers</p>
+      <p className="section-subheader">Other papers</p>
       <ul>
         <li>
           <a href="https://pages.cs.wisc.edu/~anhai/papers1/matchcatcher-edbt18.pdf">
@@ -247,7 +250,7 @@ const Research = () => (
         </li>
       </ul>
 
-      <p>Software</p>
+      <p className="section-subheader">Software</p>
       <p>PyMatcher consists of three open-source Python packages</p>
       <ul>
         <li>
@@ -272,7 +275,7 @@ const Research = () => (
         </li>
       </ul>
 
-      <p>Users</p>
+      <p className="section-subheader">Users</p>
       <ul>
         <li>
           PyMatcher was used by several domain science teams and companies. See Table 1 of{' '}
@@ -290,7 +293,7 @@ const Research = () => (
           deforestation in the Amazon in Brazil.
         </li>
       </ul>
-      <p>Team</p>
+      <p className="section-subheader">Team</p>
       <ul>
         <li>
           Pradap Konda, Sanjib Das, Paul Suganthan G.C., Ardel Ardalan, Jeff Ballard, Han Li,
@@ -305,7 +308,7 @@ const Research = () => (
         intervention and to scale using Hadoop-based infrastructures. The ideas and techniques
         developed in this project inspired the design of CloudMatcher.
       </p>
-      <p>Papers</p>
+      <p className="section-subheader">Papers</p>
       <ul>
         <li>
           <a href="https://pages.cs.wisc.edu/~anhai/papers/falcon-sigmod17.pdf">
@@ -326,7 +329,7 @@ const Research = () => (
         </li>
       </ul>
 
-      <p>Team</p>
+      <p className="section-subheader">Team</p>
       <ul>
         <li>Chaitanya Gokhale, Sanjib Das, Paul Suganthan G.C.</li>
       </ul>
@@ -338,7 +341,7 @@ const Research = () => (
         the use of pre-trained language models, and helped establish deep learning as a viable
         approach for EM.
       </p>
-      <p>Papers</p>
+      <p className="section-subheader">Papers</p>
       <ul>
         <li>
           <a href="https://dl.acm.org/doi/10.14778/3476249.3476294">
@@ -364,7 +367,7 @@ const Research = () => (
         </li>
       </ul>
 
-      <p>Software</p>
+      <p className="section-subheader">Software</p>
       <ul>
         <li>
           <a href="https://github.com/anhaidgroup/deepmatcher">DeepMatcher</a>: Implements the
@@ -383,7 +386,7 @@ const Research = () => (
         string matching, schema matching, ontology matching, and matching table columns to ontology
         concepts.
       </p>
-      <p>Examples include</p>
+      <p className="section-subheader">Examples include</p>
       <ul>
         <li>
           <a href="https://dl.acm.org/doi/10.14778/3291264.3291272">
