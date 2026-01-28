@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/magellan/static/css/main.436a7aa9.css",
-    "main.js": "/magellan/static/js/main.14613335.js",
+    "main.js": "/magellan/static/js/main.ba650ca5.js",
     "static/js/971.a74ec999.chunk.js": "/magellan/static/js/971.a74ec999.chunk.js",
-    "static/js/918.9076720f.chunk.js": "/magellan/static/js/918.9076720f.chunk.js",
+    "static/js/918.411dff79.chunk.js": "/magellan/static/js/918.411dff79.chunk.js",
     "static/js/938.69c81228.chunk.js": "/magellan/static/js/938.69c81228.chunk.js",
     "static/js/379.6b4e2ede.chunk.js": "/magellan/static/js/379.6b4e2ede.chunk.js",
     "static/js/966.57ccb519.chunk.js": "/magellan/static/js/966.57ccb519.chunk.js",
@@ -14,9 +14,9 @@
     "static/media/magellan_tech_about_image.png": "/magellan/static/media/magellan_tech_about_image.276571ba55977c8e0290.png",
     "index.html": "/magellan/index.html",
     "main.436a7aa9.css.map": "/magellan/static/css/main.436a7aa9.css.map",
-    "main.14613335.js.map": "/magellan/static/js/main.14613335.js.map",
+    "main.ba650ca5.js.map": "/magellan/static/js/main.ba650ca5.js.map",
     "971.a74ec999.chunk.js.map": "/magellan/static/js/971.a74ec999.chunk.js.map",
-    "918.9076720f.chunk.js.map": "/magellan/static/js/918.9076720f.chunk.js.map",
+    "918.411dff79.chunk.js.map": "/magellan/static/js/918.411dff79.chunk.js.map",
     "938.69c81228.chunk.js.map": "/magellan/static/js/938.69c81228.chunk.js.map",
     "379.6b4e2ede.chunk.js.map": "/magellan/static/js/379.6b4e2ede.chunk.js.map",
     "966.57ccb519.chunk.js.map": "/magellan/static/js/966.57ccb519.chunk.js.map",
@@ -27,6 +27,6 @@
   },
   "entrypoints": [
     "static/css/main.436a7aa9.css",
-    "static/js/main.14613335.js"
+    "static/js/main.ba650ca5.js"
   ]
 }
