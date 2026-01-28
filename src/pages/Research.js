@@ -60,10 +60,8 @@ const Research = () => (
       <ul>
         <li>
           <a href="https://github.com/MadMatcher/MatchFlow">MatchFlow</a>: A library for
-          experimenting with a wide range of EM workflows across different runtime environments. It
-          provides modular components that can be composed into flexible matching pipelines, with a
-          primary focus on the matching step. Support for blocking workflows is planned for future
-          releases. MatchFlow is hosted at <a href="https://madmatcher.ai">MadMatcher</a>, a recent
+          experimenting with a wide range of workflows for the matching step, across different runtime environments. It
+          provides modular components that can be composed into flexible matching pipelines. MatchFlow is hosted at <a href="https://madmatcher.ai">MadMatcher</a>, a recent
           EM startup.
         </li>
         <li>
@@ -71,7 +69,7 @@ const Research = () => (
           learning to train high-accuracy matchers with minimal manual labeling. It automatically
           selects informative tuple pairs for labeling and scales to very large candidate sets
           produced by blocking, often containing hundreds of millions of pairs. ActiveMatcher is
-          currently in beta testing.
+          currently in beta testing. 
         </li>
       </ul>
 
