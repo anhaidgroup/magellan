@@ -18,7 +18,7 @@ const About = () => (
       </span>
       <p>
         Entity Matching (EM) is the problem of finding data instances that refer to the same
-        real-world entity. For example, given the two tables A and B shown HERE, find all tuple
+        real-world entity. For example, given the two tables A and B shown here, find all tuple
         pairs (a in A, b in B) that match, such as (Dave Smith, Madison, WI) and (David D. Smith,
         Madison, WI). We call these pairs <b>matches</b>.
       </p>
