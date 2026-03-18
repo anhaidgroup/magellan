@@ -17,6 +17,8 @@ const Data = () => (
         Since the project’s inception, we have collected a large number of datasets for evaluating
         EM software. This includes BigGoat, our latest benchmark for scaling EM. We plan to list
         these datasets here in the near future.
+
+        Here is the [datasets](https://pages.cs.wisc.edu/~anhai/data5/sparkly-datasets/sparkly-datasets.zip) used in the Sparkly VLDB-2023 paper. 
       </p>
     </article>
   </Main>
